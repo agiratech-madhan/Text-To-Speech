@@ -23,7 +23,6 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         setContentView(binding?.root)
 
         // Initialize the Text To Speech
-        tts = TextToSpeech(this, this)
 
         binding?.btnSpeak?.setOnClickListener { view ->
 
